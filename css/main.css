@@ -3,11 +3,11 @@
     --spacing: 15px;
     --font-size: 1.15rem;
     /* Normal Colors */
-    --background-color: white;
-    --alt-background-color: gainsboro;
+    --background-color: #CAD4C4;
+    --alt-background-color: #AADAB4;
     --font-color: black;
-    --alt-font-color: darkslategray;
-    --border-color: black;
+    --alt-font-color: #172A3A;
+    --border-color: #62A78A;
     /* Dark Mode Colors */
     --dark-background-color: black;
     --dark-alt-background-color: darkslategray;
@@ -33,12 +33,18 @@ body {
 header {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto;
     font-size: var(--font-size);
     padding: var(--spacing);
     border-bottom: 1px solid var(--border-color);
     color: var(--alt-font-color);
     background-color: var(--alt-background-color);
+    grid-gap: 10px;
+}
+header #title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header a {
@@ -47,20 +53,37 @@ header a {
 
 header nav {
     display: flex;
-    align-items: center;
     margin-left: auto;
+    align-items: center;
 }
 
 header nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    
 }
 
 header nav ul li {
     display: inline-block;
-    padding: 7.5px;
+    padding: 10px;
     margin-right: 7.5px;
+}
+header nav ul li button {
+    background-color: var(--alt-font-color);
+    color: white;
+    border: 3.5px solid black; 
+    padding: 8px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+header nav ul li button:hover {
+    background-color: #CAD4C4;
+    color: black;
+    border: 3.5px solid #7A0C00;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 main {
