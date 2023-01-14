@@ -1,10 +1,13 @@
 import React from "react";
-import app from "./app.module.css";
+import services from "./services.module.css";
+import Header from "../header";
 
-function App() {
+function Services() {
     return (
-        <div></div>
+        <div>
+            <Header/>
+        </div>
     );
 }
 
-export default App;
+export default Services;
