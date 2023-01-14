@@ -1,10 +1,13 @@
 import React from "react";
-import app from "./app.module.css";
+import staff from "./staff.module.css";
+import Header from "../header";
 
-function App() {
+function Staff() {
     return (
-        <div></div>
+        <div>
+            <Header/>
+        </div>
     );
 }
 
-export default App;
+export default Staff;
