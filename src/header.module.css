@@ -1,1 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #E7E7E7;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
 
+.header .logo {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.header .rightSide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .4fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.header .dropdown {
+    text-align: center;
+    align-self: center;
+}
+
+.header button {
+    border: none;
+    font-size: large;
+    background-color: #E7E7E7;
+}
+
+.header button:hover {
+    font-size: larger;
+    text-decoration: underline;
+    transition:.5s;
+}
+
+.header .headerLine {
+    text-align: center;
+    align-self: center;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

@@ -6,9 +6,12 @@ import { AiOutlineLine } from "react-icons/ai";
 
 function Header() {
   let navigate = useNavigate();
+  function Eclinical() {
+    window.open(
+      "https://healow.com/apps/jsp/webview/signIn.jsp", "_blank");
+  }
   return (
     <div className={header.header}>
-
       <div className={header.leftSide}>
         <img
           className={header.logo}
@@ -22,30 +25,25 @@ function Header() {
 
       <div className={header.rightSide}>
 
-        <div className={header.links}>
-
           <div className={header.dropdown}>
-            <button className={header.dropbtn} onClick={() => {navigate("/services");}}>Services</button>
+            <button onClick={() => {navigate("/services");}}>Services</button>
           </div>
 
           <div className={header.dropdown}>
-            <button className={header.dropbtn} onClick={() => {navigate("/staff");}}>Staff</button>
+            <button onClick={() => {navigate("/staff");}}>Staff</button>
           </div>
 
           <div className={header.dropdown}>
-            <button className={header.dropbtn} onClick={() => {navigate("/eclinical");}}>E-Clinical</button>
+            <button onClick={() => {Eclinical();}}>E-Clinical</button>
           </div>
 
-          <div>
-            <AiOutlineLine/>
+          <div className={header.headerLine}>
+            <AiOutlineLine size={30}/>
           </div>
 
           <div className={header.dropdown}>
-            <button className={header.dropbtn} onClick={() => {navigate("/contactus");}}>Contact Us</button>
+            <button onClick={() => {navigate("/contactus");}}>Contact Us</button>
           </div>
-
-        </div>
-
       </div>
     </div>
   );
