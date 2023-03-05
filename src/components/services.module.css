@@ -1,0 +1,75 @@
+.services {
+    font-family: 'Kumbh Sans';
+    background-image: url("../../public/images/pully.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:auto;
+}
+
+.services .servicesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services .title {
+    background-color: rgba(231,231,231,.5);
+    grid-area: 1 / 1 / 3 / 2;
+    display: grid;
+    grid-template-columns: 525px 300px;
+    grid-template-rows: 100px 300px 400px;
+    margin-bottom: 200px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.services h1 {
+    margin: 25px;
+    grid-area: 1/1/2/2;
+}
+.services .description {
+    width: 750px;
+    margin: 25px;
+    background-color: rgba(231,231,231,.8);
+    border-radius: 30px;
+    grid-area: 2/1/2/3;
+}
+.services .description p {
+    margin: 30px;
+    line-height: 2;
+    text-indent: 20px;
+}
+.services .emsellaChair {
+    width: 500px;
+    height: auto;
+    margin: 15px;
+    border-radius: 10px;
+    grid-area: 3/1/3/2;
+}
+.services .short {
+    background-color: rgba(231,231,231,.8);
+    border-radius: 30px;
+    grid-area: 3/2/3/2;
+    width: 200px;
+    height: 220px;
+    align-self: center;
+    margin-bottom: 60px;
+}
+.services .short p {
+    margin: 30px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.services .videoOne {
+    margin: 15px;
+    justify-self: center;
+}
+.services .videoTwo {
+    margin: 15px;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: center;
+}
+

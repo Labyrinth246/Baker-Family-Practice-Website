@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.219af767.js",
+    "main.css": "/static/css/main.929c4ee8.css",
+    "main.js": "/static/js/main.eee8f921.js",
+    "static/media/pully.jpg": "/static/media/pully.6059576825edd7423c17.jpg",
+    "static/media/sunsetlighthouse.jpg": "/static/media/sunsetlighthouse.4fc0d69f134359c3fc44.jpg",
+    "static/media/fishies.jpg": "/static/media/fishies.4227df6d1dc9fda902fb.jpg",
+    "static/media/LighthouseBackground.jpg": "/static/media/LighthouseBackground.e9623aaef2acc5f9e07f.jpg",
     "index.html": "/index.html",
-    "main.219af767.js.map": "/static/js/main.219af767.js.map"
+    "main.929c4ee8.css.map": "/static/css/main.929c4ee8.css.map",
+    "main.eee8f921.js.map": "/static/js/main.eee8f921.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.219af767.js"
+    "static/css/main.929c4ee8.css",
+    "static/js/main.eee8f921.js"
   ]
 }
