@@ -36,3 +36,7 @@
     margin-left: 180px;
     text-indent: 50px;
   }
+
+.app .practiceInfo p {
+  color: black;
+}
